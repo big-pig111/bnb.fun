@@ -9,14 +9,14 @@
 <div id="startBox">
     <img src="img/title.png" alt="">
     <div>
-        <input type="text" placeholder="请输入昵称" id="username">
+        <input type="text" placeholder="Please enter a nickname" id="username">
         <h4></h4>
-        <div onclick="gameStart()">开始游戏</div>
+        <div onclick="gameStart()">Play the game</div>
     </div>
 </div>
 <div id="ruleBox">
     <img src="img/rules.png" alt="">
-    <button onclick="gamePlay()">我知道啦~</button>
+    <button onclick="gamePlay()">I see~</button>
 </div>
 <div id="taikoBox">
     <div id="head"></div>
@@ -39,21 +39,21 @@
     </div>
     <div id="foot">
         <div id="pauseChoice">
-        <button onclick="gamePlay()" id="restartButton">重新开始</button><br>
-        <button onclick="gameContinue()" id="continueButton">继续游戏</button>
+        <button onclick="gamePlay()" id="restartButton">resume</button><br>
+        <button onclick="gameContinue()" id="continueButton">Continue playing</button>
         </div>
-        <button onclick="gamePause()" id="pausebutton">暂停</button>
+        <button onclick="gamePause()" id="pausebutton">Time out</button>
         <canvas id="dancerCtx" width="900" height="260"></canvas>
     </div>
 </div>
 <div id="endBox">
-    <h1>排行榜</h1>
+    <h1>list</h1>
     <table id="scoreRank">
     <tr><td><div id="firstIcon"></div></td><td>暂无</td><td>暂无</td></tr>
     <tr><td><div id="secondIcon"></div></td><td>暂无</td><td>暂无</td></tr>
     <tr><td><div id="thirdIcon"></div></td><td>暂无</td><td>暂无</td></tr>
     </table>
-    <div onclick="gamePlay()">再玩一局</div>
+    <div onclick="gamePlay()">Play one more round</div>
 
 </div>
 <div id="theSource">
