@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* 让html和body占据整个视口高度和宽度 */
+/* 让 html 和 body 占据整个视口高度和宽度 */
 html, body {
     height: 100vh;
     width: 100vw;
@@ -40,7 +40,7 @@ html, body {
 #startBox>div {
     width: 600px;
     height: 250px;
-    background-color: rgba(50,50,50,.6);
+    background-color: rgba(50, 50, 50, .6);
     position: absolute;
     left: 150px;
     top: 200px;
@@ -147,6 +147,7 @@ html, body {
     position: relative;
     border-top: 5px solid black;
     border-bottom: 5px solid black;
+    clear: both;
 }
 
 #theIcon {
@@ -205,9 +206,8 @@ html, body {
 
 #judgementCtx {
     position: absolute;
-    left: 0px;
-    top: -120px;
     left: 250px;
+    top: -120px;
 }
 
 #theRoad {
@@ -216,6 +216,7 @@ html, body {
     border-bottom: 5px solid black;
     background-color: #3b3b3b;
     float: left;
+    position: relative;
 }
 
 #theRoad img {
@@ -239,6 +240,7 @@ html, body {
     background-image: url(../img/footbg.jpg);
     background-size: cover;
     background-position: 0px 420px;
+    clear: both;
 }
 
 #dancerCtx {
@@ -266,14 +268,15 @@ html, body {
     width: 700px;
     height: 310px;
     padding: 100px;
-    background-color: rgba(50,50,50,.7);
+    background-color: rgba(50, 50, 50, .7);
     position: absolute;
     z-index: 20;
     top: 0px;
     display: none;
 }
 
-#restartButton, #continueButton {
+#restartButton,
+#continueButton {
     margin-top: 50px;
     width: 300px;
     height: 50px;
@@ -370,4 +373,4 @@ html, body {
 /* 图片资源 */
 #theSource img {
     display: none;
-}
+}    
